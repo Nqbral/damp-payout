@@ -1,0 +1,19 @@
+{
+  "name": "damp-payout",
+  "version": "1.0.0",
+  "repository": "https://github.com/Nqbral/damp-payout",
+  "author": "Simon Chevalier",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "workspaces/*"
+    ]
+  },
+  "scripts": {
+    "start:dev:client": "yarn workspace @damp-payout/client start:dev",
+    "start:dev:server": "yarn workspace @damp-payout/server start:dev",
+    "start:prod:client": "yarn workspace @damp-payout/client start:prod",
+    "start:prod:server": "yarn workspace @damp-payout/server start:prod"
+  }
+}
