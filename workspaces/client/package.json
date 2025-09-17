@@ -1,0 +1,31 @@
+{
+  "name": "@damp-payout/client",
+  "version": "1.0.0",
+  "author": "Simon Chevalier (Nqbral)",
+  "private": true,
+  "scripts": {
+    "start:dev": "next dev -p 3033",
+    "start:prod": "next build && next start",
+    "lint": "next lint",
+    "sitemap": "next-sitemap"
+  },
+  "dependencies": {
+    "next": "15.5.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.3",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
